@@ -1,41 +1,42 @@
-
-{
-	goals: [
-	uuid: "123456789wertyui",
-	title: "title",
-	description: "disc",
-	type: "type",
-	media: [
-    	{
-		uuid: "123456789qwertyuiop",
-	    title: "title",
-		attribute_name: "video",  // “video” | “icon”
-		description: "desc",
-		type: "type",
-		media_type: "video",
-		text: "text",
-		location: "location",
-		metadata: {
-	      key: "value"
-	  	}
-    }
-  ],
-	programs : [
-		“Tag1”,
-    	“Tag2”
-  ],
-  tasks: [
-		{
-	  	uuid: "123456789qwertyuio",
-		title: "title",
-    	description: "desc",
-	    status: "pending"
-  		type: "link_url",  // => {"link_url", "in_app_redirect" }  
-		completed_at: "10-2-2019", //date | null,
-	    metadata: {
-    	  url:"link"
-      	} // example postback in case of kai_quiz type, and link url for links type 
-		}
-	]
-]
+{  
+   "goals":[  
+      {  
+         "uuid":"123456789wertyui",
+         "title":"title",
+         "description":"disc",
+         "type":"type",
+         "media":[  
+            {  
+               "uuid":"123456789qwertyuiop",
+               "title":"title",
+               "attribute_name":"video",
+               "description":"desc",
+               "type":"type",
+               "media_type":"video",
+               "text":"text",
+               "location":"location",
+               "metadata":{  
+                  "key":"value"
+               }
+            }
+         ],
+         "programs":[  
+            "Tag1",
+            "Tag2"
+         ],
+         "tasks":[  
+            {  
+               "uuid":"123456789qwertyuio",
+               "title":"title",
+               "description":"desc",
+               "status":"pending",
+               "type":"link_url",
+               "completed_at":"10-2-2019",
+               "metadata":{  
+                  "url":"link"
+               }
+            }
+         ]
+      }
+   ]
 }
