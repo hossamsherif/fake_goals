@@ -1,5 +1,8 @@
 {  
-   "goals":[  
+   "goals":{
+    "status": "success",
+    "message":"message",
+    "data":[  
       {  
          "uuid":"1",
          "title":"Goal 1",
@@ -127,5 +130,7 @@
             }
          ]
       }
-   ]
+   ],
+    "code":200
+  }
 }
