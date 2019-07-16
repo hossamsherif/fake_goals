@@ -28,7 +28,7 @@
                "type":"type",
                "media_type":"video",
                "text":"text",
-               "location":"https://source.unsplash.com/random/300x200",
+               "location":"https://source.unsplash.com/random/500x500",
                "metadata":{  
                   "key":"value"
                }
@@ -92,7 +92,7 @@
                "type":"type",
                "media_type":"video",
                "text":"text",
-               "location":"https://source.unsplash.com/random/300x200",
+               "location":"https://source.unsplash.com/random/500x500",
                "metadata":{  
                   "key":"value"
                }
