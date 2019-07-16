@@ -14,7 +14,7 @@
                "type":"type",
                "media_type":"video",
                "text":"text",
-               "location":"location",
+               "location":"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
                "duration":"01:30",
                "metadata":{  
                   "key":"value"
@@ -28,7 +28,7 @@
                "type":"type",
                "media_type":"video",
                "text":"text",
-               "location":"location",
+               "location":"https://source.unsplash.com/random/300x200",
                "metadata":{  
                   "key":"value"
                }
@@ -78,7 +78,7 @@
                "type":"type",
                "media_type":"video",
                "text":"text",
-               "location":"location",
+               "location":"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
                "duration":"01:30",
                "metadata":{  
                   "key":"value"
@@ -92,7 +92,7 @@
                "type":"type",
                "media_type":"video",
                "text":"text",
-               "location":"location",
+               "location":"https://source.unsplash.com/random/300x200",
                "metadata":{  
                   "key":"value"
                }
