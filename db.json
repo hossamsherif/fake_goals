@@ -127,6 +127,70 @@
                "metadata":{  
                   "url":"link"
                }
+            },
+            {  
+               "uuid":"3",
+               "title":"title for task 2",
+               "description":"desc for task 2",
+               "status":"pending",
+               "type":"link_url",
+               "completed_at":"10-2-2019",
+               "metadata":{  
+                  "url":"link"
+               }
+            }
+         ]
+      },
+      
+            {  
+         "uuid":"3",
+         "title":"title goal 3",
+         "description":"This is the goal 2 description should appear in the description area for it. This is the goal 1 description should appear in the description area for it.",
+         "type":"type",
+         "media":{  
+            "video": {  
+               "uuid":"1",
+               "title":"title video",
+               "attribute_name":"video",
+               "description":"video description",
+               "type":"type",
+               "media_type":"video",
+               "text":"text",
+               "location":"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+               "duration":"01:30",
+               "metadata":{  
+                  "key":"value"
+               }
+            },
+            "icon": {  
+               "uuid":"2",
+               "title":"title icon 2",
+               "attribute_name":"icon",
+               "description":"desc",
+               "type":"type",
+               "media_type":"video",
+               "text":"text",
+               "location":"https://source.unsplash.com/random/500x500",
+               "metadata":{  
+                  "key":"value"
+               }
+            }
+         },
+         "programs":[  
+            "Tag3",
+            "Tag4"
+         ],
+         "tasks":[  
+            {  
+               "uuid":"2",
+               "title":"title for task 2",
+               "description":"desc for task 2",
+               "status":"pending",
+               "type":"link_url",
+               "completed_at":"10-2-2019",
+               "metadata":{  
+                  "url":"link"
+               }
             }
          ]
       }
